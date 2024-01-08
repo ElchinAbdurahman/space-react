@@ -1,0 +1,37 @@
+body{
+  background-color: #ffffff;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 28px !important;
+  color: #fff !important;
+}
+.custom-input {
+  background-color: white;
+}
+@media screen and (max-width: 1300px) {
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 20px !important;
+    color: #ffd771;
+  }
+}
+
+.mySwiper3 .swiper-pagination-bullet {
+  width: 38px !important;
+  height: 5px !important;
+  border-radius: 6px !important;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: white !important;
+}
+
+
+.mySwiper3 .swiper-pagination-bullet-active {
+color: #fff;
+background: #F9C75C !important;
+}
